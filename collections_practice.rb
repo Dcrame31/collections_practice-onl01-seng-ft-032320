@@ -24,4 +24,7 @@ def reverse_array(array)
 end
 
 def kesha_maker
+  #takes array of strings, replaces third character in each string with $
+  #use .each method to iterate
+  #build new array and return
 end
