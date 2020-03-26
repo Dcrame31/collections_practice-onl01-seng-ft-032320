@@ -36,3 +36,7 @@ def find_a(array)
   #return all strings that start with a 
   array.select do |word| word.start_with?("a") end
 end
+
+def sum_array(array)
+  array.sum
+end
