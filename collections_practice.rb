@@ -27,3 +27,7 @@ def kesha_maker(array)
   new_arr = [] 
   array.each {|letter| new_arr << letter[2] = "$"}
 end
+
+def find_a(array)
+  #return all strings that start with a 
+end
