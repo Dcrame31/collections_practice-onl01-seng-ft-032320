@@ -9,3 +9,7 @@ end
 def sort_array_char_count(array)
   #ascending order by length of string
 end
+
+def sort_array_char_count(array)
+  array.sort_by {|x| x.length}
+end
