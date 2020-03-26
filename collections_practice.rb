@@ -40,3 +40,7 @@ end
 def sum_array(array)
   array.sum
 end
+
+def add_s(array)
+  #add s to each word, except for 2nd element
+end
