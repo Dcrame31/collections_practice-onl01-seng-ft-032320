@@ -24,7 +24,6 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  #takes array of strings, replaces third character in each string with $
-  #use .each method to iterate
-  #build new array and return
+  new_arr = [] 
+  array.each {|letter| new_arr << letter[2] = "$"}
 end
